@@ -1,0 +1,19 @@
+enabled: true
+route: /fbgraph
+
+host: https://graph.facebook.com/v2.8/
+app_id: 1907933852817093
+secret: e5eb61bc9a6810c1f68ebc462bb204b3
+
+resources:
+    demo_resource:
+        page_id: NatGeoOcean
+        edge: /photos
+        params:
+            type: uploaded
+            limit: 5
+            fields:
+                - source
+                - key: album
+                  value:
+                      - name

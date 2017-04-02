@@ -1,0 +1,23 @@
+name: FBGraph
+version: 0.1.0
+description: Facebook Graph API client for Grav CMS
+icon: plug
+author:
+  name: PJ arts
+  email: per@pjarts.se
+keywords: grav, plugin, etc
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool

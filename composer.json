@@ -1,0 +1,13 @@
+{
+    "name": "pjarts/grav-plugin-fbgraph",
+    "description": "Facebook Graph API client for Grav CMS",
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Per Jonsson",
+            "email": "per@pjarts.se"
+        }
+    ],
+    "require": {}
+}
